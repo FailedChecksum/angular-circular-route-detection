@@ -1,0 +1,11 @@
+<article>
+  <section><h2>Circular routing tests</h2></section>
+  <section>
+    <button [routerLink]="''">Home</button>
+    <button [routerLink]="['/circular']">Circular Feature</button>
+    <button [routerLink]="'good'">Good Feature</button>
+  </section>
+  {{title}}
+  <section><router-outlet></router-outlet></section>
+
+</article>
